@@ -58,6 +58,8 @@ body {
 .section-head h1 {
     font-size: 6em;
     font-weight: 300;
+    white-space: nowrap;
+    line-height: 1em;
 }
 
 .section-head p {
@@ -67,11 +69,13 @@ body {
 .section-head .container > div:last-child {
     margin-top: 350px;
     margin-bottom: 400px;
+    margin-top: 35%;
+    margin-bottom: 35%;
 }
 
 /********************SECTION MAIN*********************/
 
-.section-main .row:first-child {
+.section-main > .row:first-child {
     margin-top: 110px;
     margin-bottom: 80px;
 }
@@ -93,24 +97,23 @@ body {
     margin-bottom: 100px;
 }
 
-.grid-sizer,
-.grid-item {
-    width: 33.333%;
+.masonry-container {
+    margin: 0;
+    padding: 0;
 }
 
-.item-width2 {
-    width: 66.666%;
+.row.masonry-row {
+    margin: 0;
 }
 
 .grid-item {
-    background-color: aquamarine;
-    float: left;
+    padding: 0;
 }
 
 .grid-item img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+/*    display: block;*/
+    width: 100%;
+/*    height: auto;*/
 }
 
 .grid-item--width2 {
