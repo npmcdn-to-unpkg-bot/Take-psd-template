@@ -7,7 +7,6 @@ body {
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
     line-height: 2.4em;
-    
 }
 
 h1 {
@@ -16,6 +15,10 @@ h1 {
 
 .container {
     max-width: 1230px;
+}
+
+.noPadding {
+    padding: 0;
 }
 
 /********************SECTION HEAD*********************/
@@ -30,6 +33,17 @@ h1 {
     
     color: #fff;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+    position: relative;
+}
+
+.section-head-container {
+    position: relative;
+}
+
+.iPhone-wrap {
+    
+    min-height: 200px;
 }
 
     header {
@@ -77,6 +91,13 @@ h1 {
     margin-bottom: 20%;
 }
 
+.iPhone {
+    position: absolute;
+    bottom: -180%;
+    right: 0;
+    width: 75%;
+}
+
 /********************SECTION MAIN*********************/
 
 .section-main > .row:first-child {
@@ -112,14 +133,62 @@ h1 {
 
 .grid-item {
     padding: 0;
+    position: relative;
 }
 
 .grid-item img {
-/*    display: block;*/
     width: 100%;
-/*    height: auto;*/
 }
 
 .grid-item--width2 {
     width: 25%;
 }
+
+.grid-item h2,
+.grid-item p,
+.grid-item a {
+    color: #fff;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.grid-item h2 {
+    font-weight: 300;
+    font-size: 3em;
+    top: 9%;
+    left: 12%;
+}
+
+.grid-item p {
+    top: 30%;
+    font-size: 1.3em;
+    padding-right: 45px;
+    padding-left: 12%;
+}
+
+.grid-item a {
+    font-weight: 700;
+    font-size: 1.3em;
+    bottom: 20%;
+    padding-left: 12%;
+}
+
+.grid-item a span {
+    margin-left: 10px;
+}
+
+/*Bottom columns*/
+
+.bottom-columns {
+    margin-bottom: 150px;
+}
+
+.bottom-columns h2 {
+    color: #66676d;
+    font-weight: 600;
+}
+
+.bottom-columns p {
+    text-align: justify;
+}
+
