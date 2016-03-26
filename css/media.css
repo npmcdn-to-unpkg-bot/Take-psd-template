@@ -29,6 +29,11 @@
         min-width: 400px;
         min-height: 278px;
     }
+    
+    .section-morePower h1 {
+        font-size: 4em;
+        text-align: center;
+    }
 }
 
 
@@ -67,6 +72,16 @@
     .grid-item a {
         bottom: 10%;
     }
+    
+    .section-morePower .container {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .section-morePower h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    
 }
 
 

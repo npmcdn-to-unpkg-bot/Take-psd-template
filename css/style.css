@@ -1,4 +1,3 @@
-
 html {
     font-size: 16px;
 }
@@ -21,7 +20,9 @@ h1 {
     padding: 0;
 }
 
+
 /********************SECTION HEAD*********************/
+
 .section-head {
     width: 100%;
     background-image: url(../img/header_bg.jpg);
@@ -30,10 +31,8 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     color: #fff;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    
     position: relative;
 }
 
@@ -42,38 +41,38 @@ h1 {
 }
 
 .iPhone-wrap {
-    
     min-height: 200px;
 }
 
-    header {
-        margin-top: 55px;
-    }
-        .b-circle {
-            width: 41px;
-            height: 41px;
-            border: 3px solid #fff;
-            border-radius: 50%;
-            float: left;
-        }
+header {
+    margin-top: 55px;
+    text-shadow: none;
+}
 
-            .s-circle {
-                width: 15px;
-                height: 15px;
-                border: 3px solid #fff;
-                border-radius: 50%;
-                margin: 10px auto;
-            }
+.b-circle {
+    width: 41px;
+    height: 41px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
 
-        header span {
-            margin-left: 10px;
-            font-family: 'Merriweather', serif;
-            font-style: italic;
-            font-weight: 700;
-            font-size: 2em;
-            line-height: 2em; 
-        }
+.s-circle {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 10px auto;
+}
 
+header span {
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2em;
+}
 
 .section-head h1 {
     font-size: 6em;
@@ -93,28 +92,30 @@ h1 {
 
 .iPhone {
     position: absolute;
-    bottom: -180%;
+    bottom: -240%;
     right: 0;
-    width: 75%;
+    width: 80%;
 }
+
 
 /********************SECTION MAIN*********************/
 
-.section-main > .row:first-child {
+.section-main .row:first-child {
     margin-top: 110px;
     margin-bottom: 80px;
 }
 
 .section-main h1 {
-    color:  #222626;
+    color: #222626;
     font-size: 3.5em;
     font-weight: 300;
 }
 
 .section-main p {
-    color:  #959595;
+    color: #959595;
     font-size: 1.4em;
 }
+
 
 /*Grid-box*/
 
@@ -177,6 +178,7 @@ h1 {
     margin-left: 10px;
 }
 
+
 /*Bottom columns*/
 
 .bottom-columns {
@@ -192,3 +194,211 @@ h1 {
     text-align: justify;
 }
 
+
+/********************SECTION MORE POWER*********************/
+
+.section-morePower {
+    width: 100%;
+    background-image: url(../img/thirdSection_bg.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.section-morePower h1 {
+    font-size: 6em;
+    font-weight: 300;
+    margin-top: 78%;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+.section-morePower p {
+    font-size: 1.3em;
+}
+
+.section-morePower a {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.section-morePower a span {
+    margin-left: 10px;
+}
+
+.section-morePower .row:last-child {
+    margin-bottom: 12%
+}
+
+
+/********************SECTION REASONS*********************/
+
+.section-reasons {
+    background-color: #82ca9c;
+    color: #fff;
+}
+
+.section-reasons .row:first-child {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.section-reasons h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+}
+
+.section-reasons h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.section-reasons p {
+    font-size: 1.4em;
+}
+
+.section-reasons .row:last-child {
+    margin-bottom: 160px;
+}
+
+
+/********************SECTION PAYPLAN*********************/
+
+.section-payPlan {
+    background-color: #f6f7fa;
+}
+
+.payCard {
+    max-width: 570px;
+    margin-top: 100px;
+    margin-bottom: 145px;
+    padding: 47px 55px 57px;
+}
+
+.offered {
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 10px #7e7e7e;
+    box-shadow: 1px 1px 40px #dddddd;
+}
+
+.payCard .tag {
+    border-radius: 5px;
+    background-color: #e1e1e1;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.payCard.offered .tag {
+    background-color: #bd8cbf;
+}
+
+.payCard h1 {
+    color: #2e3b4e;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.payCard p {
+    color: #8297a7;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+.payCard a {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: #82ca9c;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.os-tag {
+    color: #c5c5c5;
+    padding: 20px 15px 0 0
+}
+
+
+/********************FOOTER*********************/
+
+footer {
+    background-color: #192431;
+    color: #f6f7fa;
+}
+
+footer .row:first-child {
+    margin-top: 130px;
+}
+
+footer h1,
+footer h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 2.4em;
+    margin: 0;
+}
+
+footer p {
+    font-size: 1.3em;
+    padding-right: 30px;
+}
+
+footer form {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+footer form input[type="text"] {
+    border-radius: 2px;
+    border: none;
+    background-color: #f6f7fa;
+    width: 470px;
+    width: 70%;
+    height: 58px;
+    color: black;
+    font-size: 1.8em;
+    padding: 0 40px;
+    margin: 0;
+}
+
+footer form button {
+    border: none;
+    background-color: #82ca9c;
+    width: 70px;
+    /*    width: 12%;*/
+    height: 58px;
+    margin: 0;
+    position: relative;
+    top: 6px;
+    right: 5px;
+}
+
+footer .mailNote {
+    color: #56697f;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a {
+    font-size: 1.3em;
+    color: #f6f7fa;
+}
+
+footer .row:last-child {
+    margin-bottom: 150px;
+}
