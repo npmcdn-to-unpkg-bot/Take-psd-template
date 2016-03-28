@@ -322,11 +322,16 @@ header span {
     padding: 10px 20px;
 }
 
-.os-tag {
-    color: #c5c5c5;
-    padding: 20px 15px 0 0
+.os-wrap {
+    /*wrapper for (Android 4.1.2 Chrome 49) no left/right padding/margin bug for inline-blocks*/
+    margin-top: 20px;
 }
 
+.os-tag {
+    display: inline;
+    color: #c5c5c5;
+    margin-right: 15px; 
+}
 
 /********************FOOTER*********************/
 
